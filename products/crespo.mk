@@ -24,10 +24,9 @@ PRODUCT_COPY_FILES +=  \
     vendor/pete/proprietary/crespo/media/PFFprec_600.emd:system/media/PFFprec_600.emd \
     vendor/pete/proprietary/tuna/media/audio/notifications/Nexus.mp3:system/media/audio/notifications/Nexus.mp3 \
     vendor/pete/proprietary/common/app/Microbes.apk:system/app/Microbes.apk \
+    vendor/pete/proprietary/common/app/Wallet.apk:system/app/Wallet.apk \
     vendor/pete/proprietary/common/etc/permissions/com.google.android.media.effects.xml:system/etc/permissions/com.google.android.media.effects.xml \
-    vendor/pete/proprietary/common/etc/permissions/com.google.android.nfc_extras.xml:system/etc/permissions/com.google.android.nfc_extras.xml \
     vendor/pete/proprietary/common/framework/com.google.android.media.effects.jar:system/framework/com.google.android.media.effects.jar \
-    vendor/pete/proprietary/common/framework/com.android.nfc_extras.jar:system/framework/com.android.nfc_extras.jar \
     vendor/pete/proprietary/common/lib/libearthmobile.so:system/lib/libearthmobile.so \
     vendor/pete/proprietary/common/lib/libmicrobes_jni.so:system/lib/libmicrobes_jni.so \
     vendor/pete/proprietary/common/lib/libshopperimageutils-3.so:system/lib/libshopperimageutils-3.so \
