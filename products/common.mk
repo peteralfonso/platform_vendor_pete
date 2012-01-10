@@ -62,7 +62,6 @@ ifeq ($(TARGET_BUILD_VARIANT),user)
 # Blobs common to all devices except emulator
 PRODUCT_COPY_FILES += \
     vendor/pete/proprietary/common/app/Gallery2.apk:system/app/Gallery2.apk \
-    vendor/pete/proprietary/common/app/GoogleEarth.apk:system/app/GoogleEarth.apk \
     vendor/pete/proprietary/common/app/Music.apk:system/app/Music.apk \
     vendor/pete/proprietary/common/app/Videos.apk:system/app/Videos.apk \
     vendor/pete/proprietary/common/app/VoiceSearch.apk:system/app/VoiceSearch.apk \

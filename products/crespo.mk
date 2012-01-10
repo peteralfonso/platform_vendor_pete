@@ -27,7 +27,6 @@ PRODUCT_COPY_FILES +=  \
     vendor/pete/proprietary/common/app/Wallet.apk:system/app/Wallet.apk \
     vendor/pete/proprietary/common/etc/permissions/com.google.android.media.effects.xml:system/etc/permissions/com.google.android.media.effects.xml \
     vendor/pete/proprietary/common/framework/com.google.android.media.effects.jar:system/framework/com.google.android.media.effects.jar \
-    vendor/pete/proprietary/common/lib/libearthmobile.so:system/lib/libearthmobile.so \
     vendor/pete/proprietary/common/lib/libmicrobes_jni.so:system/lib/libmicrobes_jni.so \
     vendor/pete/proprietary/common/lib/libshopperimageutils-3.so:system/lib/libshopperimageutils-3.so \
     vendor/pete/proprietary/common/lib/libshoppervorbisencoder-2.so:system/lib/libshoppervorbisencoder-2.so \
