@@ -52,6 +52,7 @@ PRODUCT_COPY_FILES += \
     vendor/pete/proprietary/common/etc/updatecmds/google_generic_update.txt:system/etc/updatecmds/google_generic_update.txt \
     vendor/pete/proprietary/common/framework/com.google.android.maps.jar:system/framework/com.google.android.maps.jar \
     vendor/pete/proprietary/common/lib/libflint_engine_jni_api.so:system/lib/libflint_engine_jni_api.so \
+    vendor/pete/proprietary/common/lib/libgcomm_jni.so:system/lib/libgcomm_jni.so \
     vendor/pete/proprietary/common/lib/libpicowrapper.so:system/lib/libpicowrapper.so \
     vendor/pete/proprietary/common/lib/libspeexwrapper.so:system/lib/libspeexwrapper.so \
     vendor/pete/proprietary/common/lib/libvideochat_jni.so:system/lib/libvideochat_jni.so \
