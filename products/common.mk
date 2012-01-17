@@ -38,7 +38,6 @@ PRODUCT_COPY_FILES += \
     vendor/pete/proprietary/common/app/NetworkLocation.apk:system/app/NetworkLocation.apk \
     vendor/pete/proprietary/common/app/OneTimeInitializer.apk:system/app/OneTimeInitializer.apk \
     vendor/pete/proprietary/common/app/Phonesky.apk:system/app/Phonesky.apk \
-    vendor/pete/proprietary/common/app/PlusOne.apk:system/app/PlusOne.apk \
     vendor/pete/proprietary/common/app/QuickSearchBox.apk:system/app/QuickSearchBox.apk \
     vendor/pete/proprietary/common/app/SetupWizard.apk:system/app/SetupWizard.apk \
     vendor/pete/proprietary/common/app/Street.apk:system/app/Street.apk \
@@ -52,7 +51,6 @@ PRODUCT_COPY_FILES += \
     vendor/pete/proprietary/common/etc/updatecmds/google_generic_update.txt:system/etc/updatecmds/google_generic_update.txt \
     vendor/pete/proprietary/common/framework/com.google.android.maps.jar:system/framework/com.google.android.maps.jar \
     vendor/pete/proprietary/common/lib/libflint_engine_jni_api.so:system/lib/libflint_engine_jni_api.so \
-    vendor/pete/proprietary/common/lib/libgcomm_jni.so:system/lib/libgcomm_jni.so \
     vendor/pete/proprietary/common/lib/libpicowrapper.so:system/lib/libpicowrapper.so \
     vendor/pete/proprietary/common/lib/libspeexwrapper.so:system/lib/libspeexwrapper.so \
     vendor/pete/proprietary/common/lib/libvideochat_jni.so:system/lib/libvideochat_jni.so \
