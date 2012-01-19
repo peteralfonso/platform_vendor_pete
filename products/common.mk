@@ -20,9 +20,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_COPY_FILES += \
     vendor/pete/proprietary/common/app/BooksTablet.apk:system/app/BooksTablet.apk \
     vendor/pete/proprietary/common/app/Calendar.apk:system/app/Calendar.apk \
-    vendor/pete/proprietary/common/app/CarHome.apk:system/app/CarHome.apk \
     vendor/pete/proprietary/common/app/ChromeBookmarksSyncAdapter.apk:system/app/ChromeBookmarksSyncAdapter.apk \
-    vendor/pete/proprietary/common/app/GenieWidget.apk:system/app/GenieWidget.apk \
     vendor/pete/proprietary/common/app/Gmail.apk:system/app/Gmail.apk \
     vendor/pete/proprietary/common/app/GoogleBackupTransport.apk:system/app/GoogleBackupTransport.apk \
     vendor/pete/proprietary/common/app/GoogleContactsSyncAdapter.apk:system/app/GoogleContactsSyncAdapter.apk \
@@ -66,6 +64,13 @@ PRODUCT_COPY_FILES += \
     vendor/pete/proprietary/common/app/Videos.apk:system/app/Videos.apk \
     vendor/pete/proprietary/common/app/VoiceSearch.apk:system/app/VoiceSearch.apk \
     vendor/pete/proprietary/common/app/YouTube.apk:system/app/YouTube.apk
+endif
+
+ifneq ($(filter pete_crespo pete_crespo4g pete_maguro pete_toro,$(TARGET_PRODUCT)),)
+# Blobs common to all devices except emulator and tablets
+PRODUCT_COPY_FILES += \
+    vendor/pete/proprietary/common/app/CarHome.apk:system/app/CarHome.apk \
+    vendor/pete/proprietary/common/app/GenieWidget.apk:system/app/GenieWidget.apk
 endif
 
 # Enable SIP+VoIP on all targets

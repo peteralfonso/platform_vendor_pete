@@ -25,6 +25,9 @@ PRODUCT_COPY_FILES +=  \
     vendor/pete/proprietary/common/media/LMprec_508.emd:system/media/LMprec_508.emd \
     vendor/pete/proprietary/common/media/PFFprec_600.emd:system/media/PFFprec_600.emd
 
+# Inherit Face lock security blobs
+-include vendor/pete/products/common_facelock.mk
+
 # Inherit drm blobs
 -include vendor/pete/products/common_drm.mk
 
