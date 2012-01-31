@@ -5,5 +5,5 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/maguro.mk \
     $(LOCAL_DIR)/stingray.mk \
     $(LOCAL_DIR)/toro.mk \
-    $(LOCAL_DIR)/wingray.mk \
+    $(LOCAL_DIR)/wingray.mk
 
