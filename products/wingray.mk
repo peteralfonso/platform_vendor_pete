@@ -16,6 +16,9 @@ PRODUCT_BUILD_PROP_OVERRIDES := PRODUCT_NAME=tervigon BUILD_ID=IML77 BUILD_FINGE
 # Inherit common build.prop overrides
 -include vendor/pete/products/common_versions.mk
 
+# Extra wingray overlay
+PRODUCT_PACKAGE_OVERLAYS += vendor/pete/overlay/wingray
+
 # Copy wingray specific prebuilt files
 PRODUCT_COPY_FILES +=  \
     vendor/pete/proprietary/stingray/app/StingrayQuickOffice.apk:system/app/StingrayQuickOffice.apk \

@@ -16,6 +16,9 @@ PRODUCT_BUILD_PROP_OVERRIDES := PRODUCT_NAME=sojus BUILD_ID=IMM26 BUILD_FINGERPR
 # Inherit common build.prop overrides
 -include vendor/pete/products/common_versions.mk
 
+# Extra crespo4g overlay
+PRODUCT_PACKAGE_OVERLAYS += vendor/pete/overlay/crespo4g
+
 # Copy crespo4g specific prebuilt files
 PRODUCT_COPY_FILES +=  \
     vendor/pete/proprietary/crespo/app/Thinkfree.apk:system/app/Thinkfree.apk \

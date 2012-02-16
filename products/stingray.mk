@@ -16,6 +16,9 @@ PRODUCT_BUILD_PROP_OVERRIDES := PRODUCT_NAME=trygon BUILD_ID=HLK75F BUILD_FINGER
 # Inherit common build.prop overrides
 -include vendor/pete/products/common_versions.mk
 
+# Extra stingray overlay
+PRODUCT_PACKAGE_OVERLAYS += vendor/pete/overlay/stingray
+
 # Copy stingray specific prebuilt files
 PRODUCT_COPY_FILES +=  \
     vendor/pete/proprietary/stingray/app/StingrayQuickOffice.apk:system/app/StingrayQuickOffice.apk \

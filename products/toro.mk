@@ -16,6 +16,9 @@ PRODUCT_BUILD_PROP_OVERRIDES := PRODUCT_NAME=mysid BUILD_ID=IMM30B BUILD_FINGERP
 # Inherit common build.prop overrides
 -include vendor/pete/products/common_versions.mk
 
+# Extra toro overlay
+PRODUCT_PACKAGE_OVERLAYS += vendor/pete/overlay/toro
+
 # Copy toro specific prebuilt files
 PRODUCT_COPY_FILES +=  \
     vendor/pete/proprietary/tuna/app/Thinkfree.apk:system/app/Thinkfree.apk \
