@@ -22,6 +22,7 @@ PRODUCT_PACKAGE_OVERLAYS += vendor/pete/overlay/stingray
 # Copy stingray specific prebuilt files
 PRODUCT_COPY_FILES +=  \
     vendor/pete/proprietary/stingray/app/StingrayQuickOffice.apk:system/app/StingrayQuickOffice.apk \
+    vendor/pete/proprietary/common/app/SetupWizardTablet.apk:system/app/SetupWizard.apk \
     vendor/pete/proprietary/common/etc/permissions/com.google.android.media.effects.xml:system/etc/permissions/com.google.android.media.effects.xml \
     vendor/pete/proprietary/common/framework/com.google.android.media.effects.jar:system/framework/com.google.android.media.effects.jar \
     vendor/pete/proprietary/common/lib/libfilterpack_facedetect.so:system/lib/libfilterpack_facedetect.so \

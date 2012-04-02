@@ -18,7 +18,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Blobs common to all devices
 PRODUCT_COPY_FILES += \
-    vendor/pete/proprietary/common/app/BooksTablet.apk:system/app/BooksTablet.apk \
+    vendor/pete/proprietary/common/app/Books.apk:system/app/Books.apk \
     vendor/pete/proprietary/common/app/Calendar.apk:system/app/Calendar.apk \
     vendor/pete/proprietary/common/app/ChromeBookmarksSyncAdapter.apk:system/app/ChromeBookmarksSyncAdapter.apk \
     vendor/pete/proprietary/common/app/Gmail.apk:system/app/Gmail.apk \
@@ -31,13 +31,11 @@ PRODUCT_COPY_FILES += \
     vendor/pete/proprietary/common/app/GoogleTTS.apk:system/app/GoogleTTS.apk \
     vendor/pete/proprietary/common/app/LatinIMEDictionaryPack.apk:system/app/LatinIMEDictionaryPack.apk \
     vendor/pete/proprietary/common/app/Maps.apk:system/app/Maps.apk \
-    vendor/pete/proprietary/common/app/MarketUpdater.apk:system/app/MarketUpdater.apk \
     vendor/pete/proprietary/common/app/MediaUploader.apk:system/app/MediaUploader.apk \
     vendor/pete/proprietary/common/app/NetworkLocation.apk:system/app/NetworkLocation.apk \
     vendor/pete/proprietary/common/app/OneTimeInitializer.apk:system/app/OneTimeInitializer.apk \
     vendor/pete/proprietary/common/app/Phonesky.apk:system/app/Phonesky.apk \
     vendor/pete/proprietary/common/app/QuickSearchBox.apk:system/app/QuickSearchBox.apk \
-    vendor/pete/proprietary/common/app/SetupWizard.apk:system/app/SetupWizard.apk \
     vendor/pete/proprietary/common/app/Street.apk:system/app/Street.apk \
     vendor/pete/proprietary/common/app/Superuser.apk:system/app/Superuser.apk \
     vendor/pete/proprietary/common/app/Talk.apk:system/app/Talk.apk \
@@ -70,7 +68,8 @@ ifneq ($(filter pete_crespo pete_crespo4g pete_maguro pete_toro,$(TARGET_PRODUCT
 # Blobs common to all devices except emulator and tablets
 PRODUCT_COPY_FILES += \
     vendor/pete/proprietary/common/app/CarHome.apk:system/app/CarHome.apk \
-    vendor/pete/proprietary/common/app/GenieWidget.apk:system/app/GenieWidget.apk
+    vendor/pete/proprietary/common/app/GenieWidget.apk:system/app/GenieWidget.apk \
+    vendor/pete/proprietary/common/app/SetupWizard.apk:system/app/SetupWizard.apk
 endif
 
 # Enable SIP+VoIP on all targets

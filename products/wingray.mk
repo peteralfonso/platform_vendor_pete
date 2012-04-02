@@ -11,7 +11,7 @@ PRODUCT_DEVICE := wingray
 PRODUCT_MODEL := Xoom
 PRODUCT_MANUFACTURER := Motorola
 
-PRODUCT_BUILD_PROP_OVERRIDES := PRODUCT_NAME=tervigon BUILD_FINGERPRINT=motorola/tervigon/wingray:4.0.3/IML77/239789:user/release-keys PRIVATE_BUILD_DESC="tervigon-user 4.0.3 IML77 239789 release-keys" BUILD_NUMBER=239789
+PRODUCT_BUILD_PROP_OVERRIDES := PRODUCT_NAME=tervigon BUILD_FINGERPRINT=motorola/tervigon/wingray:4.0.4/IMM76/292727:user/release-keys PRIVATE_BUILD_DESC="tervigon-user 4.0.4 IMM76 292727 release-keys" BUILD_NUMBER=292727
 
 # Inherit common build.prop overrides
 -include vendor/pete/products/common_versions.mk
@@ -22,6 +22,7 @@ PRODUCT_PACKAGE_OVERLAYS += vendor/pete/overlay/wingray
 # Copy wingray specific prebuilt files
 PRODUCT_COPY_FILES +=  \
     vendor/pete/proprietary/stingray/app/StingrayQuickOffice.apk:system/app/StingrayQuickOffice.apk \
+    vendor/pete/proprietary/common/app/SetupWizardTablet.apk:system/app/SetupWizard.apk \
     vendor/pete/proprietary/common/etc/permissions/com.google.android.media.effects.xml:system/etc/permissions/com.google.android.media.effects.xml \
     vendor/pete/proprietary/common/framework/com.google.android.media.effects.jar:system/framework/com.google.android.media.effects.jar \
     vendor/pete/proprietary/common/lib/libfilterpack_facedetect.so:system/lib/libfilterpack_facedetect.so \
