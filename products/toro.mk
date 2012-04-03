@@ -37,6 +37,6 @@ PRODUCT_COPY_FILES +=  \
 -include vendor/pete/products/common_facelock.mk
 
 # Inherit drm blobs
--include vendor/pete/products/common_drm.mk
+# -include vendor/pete/products/common_drm.mk
 
 
