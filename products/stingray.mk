@@ -4,6 +4,9 @@ $(call inherit-product, device/moto/stingray/full_stingray.mk)
 # Inherit common product files.
 $(call inherit-product, vendor/pete/products/common.mk)
 
+# Inherit additional audio package
+$(call inherit-product, frameworks/base/data/sounds/AudioPackage6.mk)
+
 # Setup device specific product configuration.
 PRODUCT_NAME := pete_stingray
 PRODUCT_BRAND := verizon
@@ -16,22 +19,24 @@ PRODUCT_BUILD_PROP_OVERRIDES := PRODUCT_NAME=trygon BUILD_FINGERPRINT=verizon/tr
 # Inherit common build.prop overrides
 -include vendor/pete/products/common_versions.mk
 
+PRODUCT_PROPERTY_OVERRIDES += \
+    keyguard.no_require_sim=true \
+    ro.com.android.dataroaming=false
+
 # Extra stingray overlay
 PRODUCT_PACKAGE_OVERLAYS += vendor/pete/overlay/stingray
 
 # Copy stingray specific prebuilt files
 PRODUCT_COPY_FILES +=  \
     vendor/pete/proprietary/stingray/app/StingrayQuickOffice.apk:system/app/StingrayQuickOffice.apk \
-    vendor/pete/proprietary/common/app/SetupWizardTablet.apk:system/app/SetupWizard.apk \
-    vendor/pete/proprietary/common/etc/permissions/com.google.android.media.effects.xml:system/etc/permissions/com.google.android.media.effects.xml \
-    vendor/pete/proprietary/common/framework/com.google.android.media.effects.jar:system/framework/com.google.android.media.effects.jar \
-    vendor/pete/proprietary/common/lib/libfilterpack_facedetect.so:system/lib/libfilterpack_facedetect.so \
-    vendor/pete/proprietary/common/media/LMprec_508.emd:system/media/LMprec_508.emd \
-    vendor/pete/proprietary/common/media/PFFprec_600.emd:system/media/PFFprec_600.emd
+    vendor/pete/proprietary/common/app/SetupWizardTablet.apk:system/app/SetupWizard.apk
+
+# Inherit media effect blobs
+-include vendor/pete/products/common_media_effects.mk
 
 # Inherit Face lock security blobs
 -include vendor/pete/products/common_facelock.mk
 
 # Inherit drm blobs
--include vendor/pete/products/common_drm.mk
+-include vendor/pete/products/common_drm_tablet.mk
 
