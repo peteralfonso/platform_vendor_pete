@@ -64,7 +64,7 @@ PRODUCT_COPY_FILES += \
     vendor/pete/proprietary/common/app/YouTube.apk:system/app/YouTube.apk
 endif
 
-ifneq ($(filter pete_crespo pete_crespo4g pete_maguro pete_toro,$(TARGET_PRODUCT)),)
+ifneq ($(filter pete_crespo pete_crespo4g pete_maguro pete_toro pete_toroplus,$(TARGET_PRODUCT)),)
 # Blobs common to all devices except emulator and tablets
 PRODUCT_COPY_FILES += \
     vendor/pete/proprietary/common/app/CarHome.apk:system/app/CarHome.apk \

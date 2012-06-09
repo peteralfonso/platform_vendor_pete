@@ -14,7 +14,7 @@ PRODUCT_DEVICE := stingray
 PRODUCT_MODEL := Xoom
 PRODUCT_MANUFACTURER := Motorola
 
-PRODUCT_BUILD_PROP_OVERRIDES := PRODUCT_NAME=trygon BUILD_FINGERPRINT=verizon/trygon/stingray:3.2.4/HLK75F/221360:user/release-keys PRIVATE_BUILD_DESC="trygon-user 3.2.4 HLK75F 221360 release-keys" BUILD_NUMBER=221360
+PRODUCT_BUILD_PROP_OVERRIDES := PRODUCT_NAME=trygon BUILD_FINGERPRINT=verizon/trygon/stingray:4.0.4/IMM76L/345519:user/release-keys PRIVATE_BUILD_DESC="trygon-user 4.0.4 IMM76L 345519 release-keys" BUILD_NUMBER=345519
 
 # Inherit common build.prop overrides
 -include vendor/pete/products/common_versions.mk
