@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<favorites
+  xmlns:launcher="http://schemas.android.com/apk/res/com.android.launcher">
+    <appwidget launcher:className="com.android.alarmclock.AnalogAppWidgetProvider" launcher:packageName="com.google.android.deskclock" launcher:screen="2" launcher:x="2" launcher:y="1" launcher:spanX="2" launcher:spanY="2" />
+    <appwidget launcher:className="com.google.android.finsky.widget.recommendation.RecommendedWidgetProvider" launcher:packageName="com.android.vending" launcher:screen="3" launcher:x="0" launcher:y="0" launcher:spanX="6" launcher:spanY="2">
+        <extra launcher:key="type" launcher:value="all" />
+    </appwidget>
+    <folder launcher:container="-101" launcher:screen="0" launcher:x="0" launcher:y="0" launcher:title="@string/default_folder_name">
+        <favorite launcher:className="com.google.android.gm.GmailActivity" launcher:packageName="com.google.android.gm" />
+        <favorite launcher:className="com.google.android.maps.MapsActivity" launcher:packageName="com.google.android.apps.maps" />
+        <favorite launcher:className="com.google.earth.EarthActivity" launcher:packageName="com.google.earth" />
+        <favorite launcher:className="com.google.android.talk.SigningInActivity" launcher:packageName="com.google.android.talk" />
+        <favorite launcher:className="com.google.apps.dots.android.app.activity.CurrentsStartActivity" launcher:packageName="com.google.android.apps.currents" />
+        <favorite launcher:className="com.android.contacts.activities.PeopleActivity" launcher:packageName="com.android.contacts" />
+        <favorite launcher:className="com.android.gallery3d.app.Gallery" launcher:packageName="com.google.android.gallery3d" />
+        <favorite launcher:className="com.android.calendar.AllInOneActivity" launcher:packageName="com.google.android.calendar" />
+        <favorite launcher:className="com.google.android.setupwarlock.activity.FrontDoorActivity" launcher:packageName="com.google.android.setupwarlock" />
+    </folder>
+    <favorite launcher:className="com.google.android.apps.chrome.Main" launcher:packageName="com.android.chrome" launcher:container="-101" launcher:screen="1" launcher:x="1" launcher:y="0" />
+    <favorite launcher:className="com.google.android.apps.plus.phone.HomeActivity" launcher:packageName="com.google.android.apps.plus" launcher:container="-101" launcher:screen="2" launcher:x="2" launcher:y="0" />
+    <favorite launcher:className="com.google.android.youtube.app.honeycomb.Shell$HomeActivity" launcher:packageName="com.google.android.youtube" launcher:container="-101" launcher:screen="4" launcher:x="4" launcher:y="0" />
+    <favorite launcher:className="com.android.music.activitymanagement.TopLevelActivity" launcher:packageName="com.google.android.music" launcher:container="-101" launcher:screen="5" launcher:x="5" launcher:y="0" />
+    <favorite launcher:className="com.android.vending.AssetBrowserActivity" launcher:packageName="com.android.vending" launcher:container="-101" launcher:screen="6" launcher:x="6" launcher:y="0" />
+</favorites>
