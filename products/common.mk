@@ -44,7 +44,7 @@ PRODUCT_COPY_FILES += \
     vendor/pete/proprietary/common/etc/updatecmds/google_generic_update.txt:system/etc/updatecmds/google_generic_update.txt \
     vendor/pete/proprietary/common/framework/com.google.android.maps.jar:system/framework/com.google.android.maps.jar \
     vendor/pete/proprietary/common/lib/libchromeview.so:system/lib/libchromeview.so \
-    vendor/pete/proprietary/common/lib/libgoogle_recognizer_jni.so:system/lib/libgoogle_recognizer_jni.so \
+    vendor/pete/proprietary/common/lib/libgoogle_recognizer_jni_l.so:system/lib/libgoogle_recognizer_jni_l.so \
     vendor/pete/proprietary/common/lib/libjni_eglfence.so:system/lib/libjni_eglfence.so \
     vendor/pete/proprietary/common/lib/libjni_mosaic.so:system/lib/libjni_mosaic.so \
     vendor/pete/proprietary/common/lib/libpatts_engine_jni_api.so:system/lib/libpatts_engine_jni_api.so \
